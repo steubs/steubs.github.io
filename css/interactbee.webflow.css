@@ -319,6 +319,7 @@ h1 {
 }
 
 .submit-button-2 {
+  border-radius: 5px;
   background-color: #242424;
 }
 
@@ -336,8 +337,8 @@ h1 {
 
 .div-block-5 {
   min-height: 40vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#292929), to(#292929));
-  background-image: linear-gradient(180deg, #292929, #292929);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1b1b1b), to(#1b1b1b));
+  background-image: linear-gradient(180deg, #1b1b1b, #1b1b1b);
   color: #fff;
   font-size: 25px;
   font-weight: 200;
@@ -350,6 +351,11 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   min-height: 40vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -374,6 +380,7 @@ h1 {
 }
 
 .paragraph-2.grow-effect {
+  padding-top: 13px;
   text-align: center;
 }
 
@@ -383,6 +390,11 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   min-height: 40vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -420,12 +432,21 @@ h1 {
   align-items: stretch;
 }
 
+.paragraph-3.grow-effect {
+  padding-top: 12px;
+}
+
 .column-3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   min-height: 40vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -434,6 +455,20 @@ h1 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.paragraph-4 {
+  padding-top: 17px;
+}
+
+.heading-4 {
+  padding: 47px 7px 18px 122px;
+  color: #000;
+  font-weight: 400;
+}
+
+.image {
+  padding-top: 26px;
 }
 
 #w-node-9066fa9a205e-89525a0b {
